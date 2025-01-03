@@ -5,12 +5,12 @@ case turns out to be easier than the "easy"
 cases.
 
 This is a demonstration of how easy it is
-to get
+to get:
 * full path coverage of code 
-  * Test _every single possible path_ through
+  * test _every single possible path_ through
   a body of code
-* by exhaustion
-  * You can guess from the name that it
+* using exhaustion
+  * you can guess from the name that it
 might be hard (:-))
 
 In fact, we get XX% coverage of a library

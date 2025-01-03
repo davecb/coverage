@@ -4,12 +4,11 @@ package pdqWrapper
 // cgo's LDFLAGS: -luuid
 // cgo's  CFLAGS: -I/Users/doug/projects/c/go-bridge/include
 // see also http://www.perfdynamics.com/Tools/PDQman.html
-// maybe use SWIG to create go-compatable libs?
 
-// #cgo LDFLAGS:  -L../pdq5/lib/ -lpdq -lm
+// #cgo LDFLAGS:  -Lpdq5/lib/ -lpdq -lm
 // #include <stdio.h>
 // #include <math.h>
-// #include "pdq5/lib/PDQ_Lib.h"
+// #include "/home/davecb/go/src/github.com/davecb/coverage/pdq5/lib/PDQ_Lib.h"
 import "C"
 
 const (
