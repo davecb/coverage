@@ -21,3 +21,15 @@ The trick is to iterate across a
 deliberately-crafted set of values 
 for each parameter instead of trying to 
 hand-craft unit tests of everything.
+
+## FIXME
+the messages talk about sam not coverage or pdqwrapper
+
+$ pwd
+
+/home/davecb/go/src/github.com/davecb/coverage
+
+$ go test -coverprofile=... /home/davecb/go/src/github.com/davecb/coverage
+
+ok  	github.com/davecb/Play-it-Again-Sam/coverage	0.071s	coverage: 31.7% of statements
+
