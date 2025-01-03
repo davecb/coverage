@@ -6,9 +6,10 @@ package pdqWrapper
 // see also http://www.perfdynamics.com/Tools/PDQman.html
 
 // #cgo LDFLAGS:  -Lpdq5/lib/ -lpdq -lm
+// #cgo CFLAGS: -I/home/davecb/go/src/github.com/davecb/coverage/pdq5/lib/
 // #include <stdio.h>
 // #include <math.h>
-// #include "/home/davecb/go/src/github.com/davecb/coverage/pdq5/lib/PDQ_Lib.h"
+// #include "PDQ_Lib.h"
 import "C"
 
 const (

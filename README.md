@@ -14,7 +14,7 @@ to get:
 might be hard (:-))
 
 In fact, we get XX% coverage of a library
-with a YY-line test of the main() function
+with a 74-line test of the main() function
 of a caller.
 
 The trick is to iterate across a 
